@@ -1,7 +1,7 @@
 import type { Test } from './lib';
 
-interface Foo {
+interface Bar {
   a: string
 }
 
-type Res = Test<Foo>
+type Res = Test<Bar>
